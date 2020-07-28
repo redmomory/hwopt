@@ -1,0 +1,23 @@
+DMA interrupt hardware example:
+https://www.xilinx.com/support/answers/57562.html
+
+DMA Register
+https://wiki.analog.com/resources/fpga/xilinx/hints/pcore_register_map#axi_dmac
+
+IRQ_F2P maximum 15:0
+https://www.xilinx.com/support/answers/55703.html
+//using concat
+
+IRQ_F2P example
+https://forums.xilinx.com/t5/Processor-System-Design/How-to-configure-IRQ-F2P-interrputs/m-p/505885#M35424
+
+IRQ_SDK Example
+https://www.centennialsoftwaresolutions.com/post/zynq-7000-axi-slave-with-interrupt-hello-world
+
+1. Zynq7000 Interrupt Controller pdf File
+Interrupt 발생조건 과 status , control register에 대해 자세히 나와있다.
+2. Zynq7000 techniqual manual
+Interconnect Interface 부분에서 어떻게 연결 되는지에 대해 알 수 있다.
+3. Arm & Zynq Interrupt Controller
+Interrupt와 Exception에 대한 기본적 정보와
+Arm에서 그것을 어떻게 Handling하는지에 대한 정보가 들어있다.
